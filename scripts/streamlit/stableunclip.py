@@ -1,7 +1,7 @@
 import importlib
 import streamlit as st
 import torch
-import cv2
+# import cv2
 import numpy as np
 import PIL
 from omegaconf import OmegaConf
@@ -10,7 +10,7 @@ from tqdm import trange
 import io, os
 from torch import autocast
 from einops import rearrange, repeat
-from torchvision.utils import make_grid
+# from torchvision.utils import make_grid
 from pytorch_lightning import seed_everything
 from contextlib import nullcontext
 
